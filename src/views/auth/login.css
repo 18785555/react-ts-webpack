@@ -1,0 +1,19 @@
+.container_login{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-left: 1px solid rgba(156, 155, 155, 0.583); */
+    height: 100vh;
+}
+.container_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(185, 185, 185, 0.432);
+    box-shadow: 1px 11px 11px;
+}

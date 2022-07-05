@@ -1,0 +1,73 @@
+.avatar_container{
+    display: flex;
+    justify-content: start;
+}
+
+.contorl_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hover{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.hover:hover{
+    cursor: pointer;
+    color: rgb(0, 195, 255);
+}
+.right{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.space_custom{
+    margin: 10px;
+}
+
+
+.innerbox{
+    overflow-y: auto;
+    height: 100%;
+}
+.horizontal::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+    scrollbar-arrow-color:rgb(197, 1, 1);
+
+}
+.innerbox::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+    scrollbar-arrow-color:rgb(197, 1, 1);
+
+}
+.innerbox::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+    scrollbar-arrow-color:red;
+}
+.innerbox::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+}
+
+.container_lyric::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+.lyric{
+    margin-top: 10em;
+    text-align: center;
+    color: whitesmoke;
+}
+.title{
+    text-align: center;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.ptext{
+    margin: 0;padding: 0;height: 30px;
+}
